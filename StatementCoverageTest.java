@@ -3,10 +3,10 @@ public class StatementCoverageTest {
     private final test app = new test();
 
     public static void main(String[] args) {
-        StatementCoverageTest self = new StatementCoverageTest();
+        StatementCoverageTest testRunner = new StatementCoverageTest();
 
-        self.testStatementCoverage_NullInput();
-        self.testStatementCoverage_WithEvenAndOddNumbers();
+        testRunner.testStatementCoverage_NullInput();
+        testRunner.testStatementCoverage_WithEvenAndOddNumbers();
 
         System.out.println("--> PASSED: Tat ca test case Statement Coverage!");
     }
